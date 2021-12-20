@@ -1,0 +1,22 @@
+.MyCode {
+    background-color: black;
+    color:white;
+    font-family:cursive;
+}
+span {
+    color:teal;
+}
+.Projects {
+    text-align: center;
+    background-color: rgb(74, 0, 117);
+    font-family:cursive;
+    font-style: italic;
+    color:white;
+}
+.Contact {
+    background-color: lightblue;
+    color: rgb(74, 0, 117);
+    text-decoration: underline;
+    text-align: right;
+    font-family:cursive;
+}

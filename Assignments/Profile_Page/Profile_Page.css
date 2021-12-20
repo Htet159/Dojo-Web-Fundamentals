@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    font-family: Apple Chancery, cursive;
+}
+
+
+
+#nav-bar {
+    height: 75px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-left {
+    display: flex;
+    align-items: center;
+    margin-left: 35%;
+}
+#nav-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#nav-title {
+    color: white;
+    margin: 0px 20px;
+}
+#home {
+    color: lightgrey;
+    margin-right: 20px;
+}
+#my-prof {
+    color: white;
+    margin-right: 20px;
+}
+#find-con {
+    color: lightgrey;
+    margin-right: 20px;
+}
+#nav-right {
+    margin-right: 35%;
+}
+#sign-out-btn {
+    color: white;
+    background-color: rgb(6, 178, 184);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+
+
+
+#container {
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: -20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#title-bar {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(6, 178, 184);
+    border: 2px solid;
+    border-color: rgb(6, 178, 184);
+}
+#pic {
+    height: 100px; 
+    width: 100px;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 50%;
+    margin: 50px 0px 0px 30px;
+}
+#info {
+    margin: 50px 0px 0px 25px;
+}
+.location {
+    margin: 10px 0px;
+}
+#cog{
+    height: 12px;
+    width: 12px;
+}
+#link {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+#pin {
+    height: 12px;
+    width: 10px;
+}
+
+
+
+#container2 {
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#ed-title {
+    height: 40px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.sub-title {
+    padding-left: 20px;
+}
+#ed-class {
+    padding: 20px 0px 5px 10px;
+}
+#ed-date {
+    padding: 0px 0px 0px 10px;
+}
+#ed-skill {
+    padding: 20px 0px 0px 10px;
+}
+
+
+
+#con-request-container {
+    height: 300px;
+    width: 300px;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#con-title {
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+#req-num {
+    height: 10px;
+    border-radius: 50%;
+    background-color: darkgrey;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+#con-title-text{
+    color: white;
+    padding: 5px;
+}
+#con1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#con2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.con-name {
+    padding: 20px 0px 0px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.request-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px ;
+}
+.con-prof {
+    display: flex;
+
+}
+.con-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.request-btn {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+
+
+#connections-container {
+    height: 362px;
+    width: 300px;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+#connections-num {
+    background-color: darkgrey;
+    border-radius: 50%;
+    padding: 5px;
+}
+#connections-title {
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+#connections-title-text {
+    color: white;
+    margin-left: 10px;
+}
+.con-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.con {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 10px 20px ;
+}
+#link-container{
+    height: 50px;
+    width: inherit;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    margin-left: -2px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+}
+#link-more{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}

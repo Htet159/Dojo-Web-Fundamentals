@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#container {
+    max-width: 660px;
+    margin: 0 auto;
+}
+
+#column-container {
+    display: flex;
+}
+
+#navbar {
+    height: 50px;
+    background-color: black;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-title {
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+}
+#title{
+    text-align: center;
+}
+
+#column-left {
+    display: flex;
+    align-items: flext-start;
+    justify-content: center;
+}
+
+#prof-card {
+    height: 200px;
+    width: 130px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.user-card {
+    height: 150px;
+    width: 500px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 3px;
+    display: flexbox;
+    margin: 0px 0px 10px 20px;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 20px 20px;
+}
+
+.card-right {
+    display: flex;
+    align-items: center;
+}
+
+.like-button {
+    border: 2px solid;
+    border-color: black;
+    background-color: rgb(255, 217, 0);
+    margin: 0px 20px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 1px 1px black;
+    font-size: 18px;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}

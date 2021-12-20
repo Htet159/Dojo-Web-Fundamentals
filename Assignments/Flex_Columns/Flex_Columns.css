@@ -1,0 +1,32 @@
+.row {
+    display: flex;
+}
+
+.col {
+    color: white;
+    background-color: rgb(84, 139, 146);
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.col-2 {
+    color: white;
+    background-color: rgb(84, 139, 146);
+    flex: 2;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.col-3 {
+    color: white;
+    background-color: rgb(84, 139, 146);
+    flex: 3;
+    padding: 20px;
+    margin: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}

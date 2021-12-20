@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: 300px;
+    width: 600px;
+    border: 2px solid;
+    border-color: rgb(172, 172, 172);
+    border-radius: 5px;
+    margin: 50px 25%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#title-bar {
+    height: 100px;
+    width: 600px;
+    background-color: rgb(6, 178, 184);
+    border: 2px solid;
+    border-color: rgb(6, 178, 184);
+}
+
+#pic {
+    height: 100px; 
+    width: 100px;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 50%;
+    margin: 50px 0px 0px 30px;
+}
+
+#info {
+    margin: 50px 0px 0px 25px;
+}
+
+.location {
+    margin: 10px 0px;
+}
+
+#cog{
+    height: 12px;
+    width: 12px;
+}
+#link {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#pin {
+    height: 12px;
+    width: 10px;
+}
